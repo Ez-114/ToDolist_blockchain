@@ -5,6 +5,7 @@
 require('dotenv').config();
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-ignition");
+
 const { API_URL, PRIVATE_KEY } = process.env;
 
 module.exports = {
